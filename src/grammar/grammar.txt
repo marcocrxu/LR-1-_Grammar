@@ -1,0 +1,50 @@
+S0 S
+S program
+S codetext
+program type id  ( ) codetext
+type int
+type void
+codetext { internalstatement statement }
+internalstatement internalvar internal
+internal ; internalvar internal
+internal ; internalvar
+internalvar int id
+statement code statement
+statement code
+code ifcode
+code whilecode
+code returncode
+code assignment
+assignment id = expression ;
+returncode return ;
+returncode return expression ;
+whilecode while ( expression ) codetext
+ifcode if ( expression ) codetext
+ifcode if ( expression ) codetext else codetext
+expression addexpression comp
+comp relop addexpression comp
+comp relop addexpression
+relop >
+relop <
+relop >=
+relop <=
+relop ==
+relop !=
+addexpression item addpart
+addpart + item addpart
+addpart - item addpart
+addpart - item
+addpart + item
+item factor mulpart
+mulpart * factor mulpart
+mulpart / factor mulpart
+mulpart / factor
+mulpart * factor
+factor number
+factor ( expression )
+factor id ftype
+ftype call
+call ( arguments )
+arguments expression argpart
+argpart , expression argpart
+argpart , expression
