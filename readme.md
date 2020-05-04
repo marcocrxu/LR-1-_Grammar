@@ -1,1 +1,1 @@
-an LR-1 grammar Work.
+a LR-1 grammar Work.
